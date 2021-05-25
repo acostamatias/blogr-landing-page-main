@@ -119,6 +119,7 @@ p {
   border: 0;
   font-weight: 700;
   padding: 0 20px;
+  cursor: pointer;
 }
 
 #menu li ul {
@@ -230,6 +231,7 @@ p {
 
 .phone-bg {
   height: 80%;
+  width: 100%;
   position: relative;
   border-radius: 0 100px 0 100px;
   background: linear-gradient(to bottom, #2c2d3f 0%, #3f4164 100%); ;
@@ -359,7 +361,7 @@ p {
   } */
 }
 
-@media (min-width: 1024px) and (max-width: 1440px) {
+@media (min-width: 1024px) and (max-width: 2560px) {
   .container-sm {
     width: 80%;
     padding: 0 10%;
@@ -469,7 +471,7 @@ p {
     width: 75%;
     height: 100%;
     background-image: url('../images/illustration-editor-desktop.svg');
-    background-size: 78%;
+    background-size: 598px 546px;
     right: -260px;
     top: -10%;
   }
@@ -479,6 +481,7 @@ p {
   }
 
   .phone-bg {
+    width: 100%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -505,11 +508,11 @@ p {
   }
 
   .phone-image {
-    width: 100%;
+    width: 40%;
     height: 100%;
     background-size: 450px 470px;
     background-position: 5% 35px;
-    left: 0%;
+    left: -10px;
     top: 10%;
   }
 
